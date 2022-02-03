@@ -1,0 +1,32 @@
+// WAP to input a FLOAT,DOUBLE,STRING and print the same
+import java.util.Scanner;
+
+class Sample1 {
+    public static void main(String[] args) {
+    	
+        Scanner input = new Scanner(System.in);
+    	
+        // Getting float input
+        System.out.print("Enter float: ");
+        float myFloat = input.nextFloat();
+        System.out.println("Float entered = " + myFloat);
+    	
+        // Getting double input
+        System.out.print("Enter double: ");
+        double myDouble = input.nextDouble();
+        System.out.println("Double entered = " + myDouble);
+    	
+        // Getting String input
+        System.out.print("Enter text: ");
+        String myString = input.next();
+        System.out.println("Text entered = " + myString);
+    }
+}
+
+OUTPUT:-
+Enter float: 5.5
+Float entered = 5.5
+Enter double: 5.4
+Double entered = 5.4
+Enter text: Anuvrat
+Text entered = Anuvrat
