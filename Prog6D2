@@ -1,0 +1,22 @@
+package com.xyz;
+
+public class SOMENEWLOOP {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char[] ch= {'a','e','i','o','u'};
+		for(char item:ch)
+			System.out.println(" "+item);
+
+	}
+
+}
+
+
+Output:
+
+a
+e
+i
+o
+u
