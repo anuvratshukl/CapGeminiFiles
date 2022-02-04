@@ -1,0 +1,19 @@
+// Check If a Number is positive or not
+package com.xyz;
+
+public class BLOCK {
+	public static void main(String args[]) {
+		int n=5;
+		
+		if(n>0) {
+			System.out.println("Number Is Positive");
+			
+		}
+		else
+			System.out.println("Number is Negative");
+	}
+	}
+  
+  
+  OUTPUT:-
+  Number Is Positive
