@@ -1,0 +1,30 @@
+package com.xyz;
+
+public class Switchexample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n =2;
+		switch(n)
+		{
+			case 1:
+				System.out.println("Case1");
+				break;
+			case 2:
+				System.out.println("Case2");
+				break;
+			case 3:
+				System.out.println("Case3");
+				break;
+			default:
+				System.out.println("None");
+		}
+
+	}
+
+}
+
+
+OUTPUT:
+
+Case2
