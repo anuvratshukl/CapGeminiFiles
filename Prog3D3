@@ -1,0 +1,15 @@
+package com.xyz;
+
+public class repuse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="Anuvrat Sharma";
+		System.out.println(s.replace("Sharma","Shukla"));
+
+	}
+
+}
+
+Output:
+Anuvrat Shukla. //Sharma replaced with Shukla
