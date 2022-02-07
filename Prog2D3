@@ -1,0 +1,20 @@
+package com.xyz;
+
+public class subs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="Anuvrat";
+		String s1="at";
+		System.out.println(s.substring(5));
+		System.out.println(s.substring(2, 06));
+		System.out.println(s.endsWith(s1));
+
+	}
+
+}
+Output:-
+
+at
+uvra
+true
