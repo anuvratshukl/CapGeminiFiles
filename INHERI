@@ -1,0 +1,29 @@
+package com.xyz;
+
+class animal{
+	void display(){
+		System.out.println("I am an Animal");
+	}
+	
+}
+class dog extends animal{
+	void display(){
+		super.display();
+		System.out.println("I am a dog");
+	}
+}
+
+public class inheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		dog ob=new dog();
+		ob.display();
+
+	}
+
+}
+
+Output:
+I am an Animal
+I am a dog
