@@ -1,0 +1,29 @@
+package com.xyz;
+
+//OVERLOADING
+class xyz{
+	void display(int n) {
+		System.out.println(n);
+	}
+	void display(String s) {
+		System.out.println(s);
+	}
+}
+
+public class funsc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		xyz ob= new xyz();
+		int x=21;
+		ob.display(x);
+		ob.display("ANUVRAT");
+		
+
+	}
+
+}
+Output:
+
+21
+ANUVRAT
