@@ -1,0 +1,16 @@
+package com.xyz;
+
+public class repuse2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="Anuvrat Shukla";
+		System.out.println(s.replace("Sharma","Singh"));
+
+	}
+
+}
+
+Output:
+
+Anuvrat Shukla
