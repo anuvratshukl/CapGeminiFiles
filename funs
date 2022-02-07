@@ -1,0 +1,29 @@
+package com.xyz;
+
+
+class fun{
+	public void display() 
+	{
+		System.out.println("#");
+	}
+	
+	public void display(char x) {
+		System.out.println(x);
+	}
+}
+
+public class funs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		fun f= new fun();
+		f.display();
+		//System.out.println("\n");
+		f.display('&');
+
+	}
+
+}
+Output:
+#
+&
