@@ -1,0 +1,25 @@
+package com.xyz;
+
+public class str1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			  
+			    String s = "Hello! World";
+			    System.out.println("String: " + s);
+
+			    int length = s.length();
+			    System.out.println("Length: " + length);
+			  
+			
+
+
+	}
+
+}
+
+Output:-
+
+String: Hello! World
+Length: 12
