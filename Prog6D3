@@ -1,0 +1,24 @@
+package com.xyz;
+
+public class some {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			    String str1 = "     Learn   Java Programming ";
+			    String str2 = "Learn\nJava Programming\n\n   ";
+
+			    System.out.println(str1.trim());
+			    System.out.println(str2.trim());
+
+			  
+
+
+	}
+
+}
+
+Output:
+Learn  Java Programming
+Learn
+Java Programming
