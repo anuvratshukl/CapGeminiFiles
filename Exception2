@@ -1,0 +1,24 @@
+package com.xyz;
+
+public class Exception2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			int div=5/0;
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("In catch block exception found => "+e.getLocalizedMessage());
+		}
+		finally {
+			System.out.println("Arithmetic Exception finally");
+		}
+
+	}
+
+}
+
+Output:
+In catch block exception found => / by zero
+Arithmetic Exception finally
